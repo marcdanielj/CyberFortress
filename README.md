@@ -15,6 +15,13 @@ This section walks through the CyberFortress simulation, showcasing an attack an
    - Execute `SimulatedAttack.ps1` in PowerShell (Admin mode) to mimic a brute-force attempt.  
    - Visual alert:  
      ![Attack Simulation](images/AttackScript.png)  
+   - Attack sequence:  
+     - Initial alert triggers:  
+       ![Attack Sequence 1](images/AttackSeq1.png)  
+     - Brute-force attempts escalate:  
+       ![Attack Sequence 2](images/AttackSeq2.png)  
+     - System under threat warning:  
+       ![Attack Sequence 3](images/AttackSeq3.png)  
    - Video of the attack in action:  
      [Watch Attack Demo](images/DemoAttack.mp4)
 
@@ -22,6 +29,15 @@ This section walks through the CyberFortress simulation, showcasing an attack an
    - Run `FortressDefense.ps1` to harden the VM by disabling the Guest account and enabling the firewall.  
    - Success confirmation:  
      ![Defense Success](images/DefenseScript.png)  
+   - Defense sequence:  
+     - Defense protocol initiates:  
+       ![Defense Sequence 1](images/DefenseSeq1.png)  
+     - Disabling vulnerable accounts:  
+       ![Defense Sequence 2](images/DefenseSeq2.png)  
+     - Firewall activation:  
+       ![Defense Sequence 3](images/DefenseSeq3.png)  
+     - Security restored:  
+       ![Defense Sequence 4](images/DefenseSeq4.png)  
    - Video of the defense response:  
      [Watch Defense Demo](images/DemoDefense.mp4)
 
@@ -30,3 +46,5 @@ This section walks through the CyberFortress simulation, showcasing an attack an
      ![Security Logs](images/Logs.png)
 
 This project demonstrates proactive security automation in a cloud environment, blending Azure management with PowerShell scripting.
+
+*Built this project to demonstrate rapid problem-solving and technical expertise along side my CourseCareers Final Project.*
