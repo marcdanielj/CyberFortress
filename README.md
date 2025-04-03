@@ -7,7 +7,7 @@ CyberFortress is a cybersecurity simulation demonstrating an attack and defense 
 This section walks through the CyberFortress simulation, showcasing an attack and defense scenario:
 
 1. **Deploy the VM**:  
-   - Created "SecSimVM" in Azure under "CyberSimRG" (Windows Server 2022, B1s size).  
+   - Created "SecSimVM" in Azure under "CyberSimRG" (Windows Server 2022, D2s size).  
    - Managed via the Azure Portal:  
      ![Azure Portal](images/AzurePortal.png)
 
